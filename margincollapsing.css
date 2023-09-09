@@ -1,0 +1,43 @@
+/* mqargin collapsing */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#firstdiv{
+    margin-bottom: 5rem;
+    display: flex;
+}
+
+#firstdiv h1{
+  margin-right: 3rem;
+}
+
+#firstdiv p{
+    margin-left: 3rem;
+}
+
+h1, p{
+    color: white;
+}
+
+h1{
+    background-color: red;
+    
+}
+
+p{
+    background: blue;
+}
+
+#second_heading{
+    margin-bottom: 3rem;
+}
+
+#second_para{
+    margin-top: 5rem;
+}

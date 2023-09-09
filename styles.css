@@ -1,0 +1,59 @@
+/* CSS Box model */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+/* background-color: burlywood; */
+}
+
+h1,
+p{
+    color: white;
+}
+
+#firstdiv{
+    margin: 1rem 20px 8px 20px;
+}
+
+h1{
+    background: red;
+    padding-top: 3rem;
+    padding-right: 2rem;
+    padding-left:3rem;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: -7rem;
+    /* border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid ; */
+
+
+border-bottom-color:green ;
+border-bottom-style:double ;
+border-bottom-width: 1.5rem;
+z-index: -1;
+}
+
+p{
+    margin-top: 1rem;
+    background: blue;
+    padding: 2rem 4rem;
+    /* padding: top right bottom left; */
+    /* padding: 5px 20px 80px 50px; */
+    border: 10px dotted green;
+    /* border: 10px dotted green; */
+    border-style: dashed;
+    border-radius: 50%;
+    margin-top: -3rem;
+  
+}
+
+
+#seconddiv {
+    margin: 16px 20px 16px 20px;
+}
